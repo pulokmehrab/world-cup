@@ -1,0 +1,86 @@
+body{
+    margin: 20px 0 0 0 ;
+    background-color: beige;
+}
+.halfwidth{
+    margin-left:60px ;
+    display: flex;
+    background-color: rgb(12, 11, 9);
+    border-radius: 20px;
+   
+}
+.text{
+    color: white;
+    margin:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2px;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.anchor{
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    background-color:#DD0000 ;
+}
+.form{
+    margin-left: 60px;
+    background-color: black;
+    width:280px;
+    height: 250px;
+    border-radius: 10px;
+   
+}
+.login {
+    padding: 0 5px;
+   
+}
+#inputt{
+    padding: 10px;
+    margin:  10px;
+    border-radius: 10px;
+}
+#inputt:hover{
+    background-color:tomato;
+    text-decoration: none;
+}
+.display{
+    display: grid;
+    grid-template-columns: 10px;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0px 20px ;
+    
+    width: 215px;
+    margin:20px 4px;
+    border: 1px solid rgb(134, 128, 128);
+    border-radius: 5px;
+}
+.boxs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.display-box{
+    display: flex;
+ margin-top: 50px;
+}
+footer{
+    margin-top:  30px  ;
+    background-color: black;
+    color: aliceblue;
+   padding: 50px;
+   box-sizing: border-box;
+   width: 100vw;
+
+}
+.footer-text{
+    display: flex;
+    justify-content:space-between ;
+}
