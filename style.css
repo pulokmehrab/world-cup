@@ -178,7 +178,27 @@ hr{
 }
 @media  screen and (min-width:577px) and (max-width: 992px) {
     .halfwidth{
+        width: 700px;
+        margin-left: 5px;
         background-color: blueviolet;
+    }
+    .form{
+        margin-left: 100px;
+        width: 500px;
+    }
+    .boxs{
+        margin-left: 90px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .thumbnail{
+        margin-left: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     
 }
