@@ -4,6 +4,7 @@ body{
     background-color: beige;
 }
 
+
 .halfwidth{
     margin-left:60px ;
     display: flex;
@@ -23,7 +24,10 @@ h1{
     font-size: xx-large;
     font-family:font-family: 'Poppins', sans-serif;
 }
-@keyframes sliding{
+
+ /* anchor animation  */
+
+ @keyframes sliding{
     from{
         background-color: #353bf4;
     }
@@ -38,11 +42,12 @@ h1{
     color: aliceblue;
     border-radius: 5px;
     text-decoration: none;
-    padding: 15 ;
+    padding: 15  ;
     background-color:#353bf4 ;
     animation: sliding 1s ease-in-out 1s infinite alternate ;
 }
 
+/* form area */
 .form{
     
     margin-left: 500px;
@@ -91,6 +96,8 @@ h1{
   
  margin-top: 50px;
 }
+ /* footer */
+
 footer{
     margin-top:  100px  ;
      
@@ -153,7 +160,19 @@ h2{
 }
 hr{
     color: 1px solid azure;
+
 }
+.tab-anchor{
+    display: none;
+    margin-left: 100px;
+    text-decoration: white;
+    background-color: #353bf4;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* responsive area */
+
 @media screen and (max-width: 576px) {
    .halfwidth{
     display: grid;
@@ -164,6 +183,7 @@ hr{
     .form{
         margin-left: 5px;
         width: 500px;
+        background-color: rgb(161, 161, 159);
     }
     .boxs{
         margin-left: 90px;
@@ -187,6 +207,9 @@ hr{
         margin-left: 5px;
       
     }
+    .anchor{
+        padding: 6;
+    }
     .form{
         margin-left: 100px;
         width: 500px;
@@ -205,5 +228,12 @@ hr{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .tab-anchor{
+        display: inline;
+        justify-content: center;
+    }
     
 }
+
+
+                        /* END */
